@@ -6,6 +6,7 @@ font-size: medium;
 body{font-size: smaller;
     font-family: helvetica;
     padding: 10px;
+    background-image: url('sonya.jpg');
 }
 
 /* The header*/
@@ -35,6 +36,7 @@ header .desc .desc_item:hover {
  background-color: rgba(0, 131, 143, .01);
  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
 }
+
 header .desc .desc_item h2{
     color:dodgerblue ;
 }
@@ -43,7 +45,6 @@ header .desc .desc_item h2{
 section .color_grouping {
 display:flex;
 justify-content: space-between;
-
 }
 section .color_grouping div{
     padding: 12px;
@@ -85,3 +86,76 @@ font: size 15px;
   background-color: hsl(39,100%,64%)}
 .color_grouping.hsl div:nth-child(3){background-color: hsl(210,100%,56%);}
   
+
+.color_grouping.name div:nth-child(1):hover{
+    color:white;
+    background-color: rgba(0, 131, 143, .01);
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+   }
+
+   .color_grouping.name div:nth-child(2):hover{
+    color:white;
+    background-color: rgba(0, 131, 143, .01);
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+   }
+
+   .color_grouping.name div:nth-child(3):hover{
+    color:white;
+    background-color: rgba(0, 131, 143, .01);
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+   }
+   
+.color_grouping.hex div:nth-child(1):hover{
+    color:white;
+    background-color: rgba(0, 131, 143, .01);
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+   }
+
+   .color_grouping.hex div:nth-child(2):hover{
+    color:white;
+    background-color: rgba(0, 131, 143, .01);
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+   }
+
+.color_grouping.hex div:nth-child(3):hover{
+    color:white;
+    background-color: rgba(0, 131, 143, .01);
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+   }
+
+   .color_grouping.hsl div:nth-child(1):hover{
+    color:white;
+    background-color: rgba(0, 131, 143, .01);
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+   }
+
+   .color_grouping.hsl div:nth-child(2):hover{
+    color:white;
+    background-color: rgba(0, 131, 143, .01);
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+   }
+
+   .color_grouping.hsl div:nth-child(3):hover{
+    color:white;
+    background-color: rgba(0, 131, 143, .01);
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+   }
+
+   .color_grouping.rgb div:nth-child(1):hover{
+    color:white;
+    background-color: rgba(0, 131, 143, .01);
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+   }
+
+   .color_grouping.rgb div:nth-child(2):hover{
+    color:white;
+    background-color: rgba(0, 131, 143, .01);
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+   }
+
+   .color_grouping.rgb div:nth-child(3):hover{
+    color:white;
+    background-color: rgba(0, 131, 143, .01);
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+   }
+
